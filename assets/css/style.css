@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Lato:wght@400;900&family=Roboto:wght@100;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Heebo;
+}
+.conteiner{
+    display: flex;
+    border-radius: 10px;
+    padding-right: 20px;
+    box-shadow:  1.5rem 1.5rem 1.2rem #E9EEFA
+
+}
+.lado1{
+    border-radius: 20px;
+    background-image: linear-gradient( 180deg , #6647DF  20%, #322CE9 );    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+
+}
+.lado1 h5{
+    color:  #fff;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0
+}
+.lado1 .circle_result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient( 180deg , #4922CA, #322CE9 );    
+    clip-path:  circle();
+    padding: 40px;
+    margin-top: 0;
+}
+.circle_result span:nth-child(1){
+    color: #f4f4f4;
+    font-size: 36px;
+    font-weight: 900;
+   
+}
+.circle_result span:nth-child(2){
+    color: #fff;
+    font-size: 14px;
+
+}
+.lado1 h4{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 0;
+   margin-top: -0.5rem
+}
+.lado1 p{
+    color: rgba( 255, 255, 255, 0.7);
+    font-size: 14px;
+    text-align: center;
+}
+.lado2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    padding-bottom: 10px
+
+}
+.lado2 h5{
+    font-size: 16px;
+    color: #9A9AA4
+}
+.skils{
+    display: flex;
+    flex-direction: column;
+    margin-top: -1.2rem;
+}
+.skil1,
+.skil2,
+.skil3,
+.skil4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    max-width: 300px;
+    margin-top: 10px
+}
+.separar{
+    display: flex;;
+    align-items: center;
+}
+.separar span{
+    margin-left: 0.5rem
+}
+/* skil 1 */
+.skil1{
+    background-color: #FFF7F6;
+    padding: 0.6rem;
+    border-radius: 10px
+}
+.skil1 > .separar > span{
+    color: #DFA2AD
+}
+.skil1 > span{
+    color: #BBB8B8
+}
+.negrito_skils{
+    color: #767983;
+    font-weight: 900
+}
+/* skil 2 */
+.skil2{
+    background-color: #FDFDEF;
+    padding: 0.6rem;
+    border-radius: 10px
+}
+.skil2 > .separar > span{
+    color: #E1CB8A
+}
+.skil2 > span{
+    color: #BBB8B8
+}
+.negrito_skils{
+    color: #767983;
+    font-weight: 900
+}
+/* skil3 */
+.skil3{
+    background-color: #F2FBFA;
+    padding: 0.6rem;
+    border-radius: 10px
+}
+.skil3 > .separar > span{
+    color: #81C3B4
+}
+.skil3 > span{
+    color: #BBB8B8
+}
+.negrito_skils{
+    color: #767983;
+    font-weight: 900
+}
+/* skil 3 */
+.skil4{
+    background-color: #F3F3FF;
+    padding: 0.6rem;
+    border-radius: 10px
+}
+.skil4 > .separar > span{
+    color: #7F839E
+}
+.skil4 > span{
+    color: #BBB8B8
+}
+.negrito_skils{
+    color: #767983;
+    font-weight: 900
+}
+.lado2 a{
+    text-align: center;
+    background-color: #303B5B;
+    color: #A4ADBF;
+    text-decoration: none;
+    margin-top: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 25px;
+
+}
+@media  (min-width: 100px) and (max-width: 800px){
+    .conteiner{
+        flex-direction: column
+    }
+}
